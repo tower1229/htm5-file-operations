@@ -1,5 +1,5 @@
 {
-  "name": "html5-read",
+  "name": "htm5-file-operations",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "element-ui": "^2.4.6",
     "vue": "^2.5.17"
   },
   "devDependencies": {
