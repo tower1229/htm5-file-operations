@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     readLocalFile: function(file, callback) {
-      var reader = new FileReader();
+      let reader = new FileReader();
       //将文件以文本形式读入页面
       reader.readAsText(file);
       reader.onload = function() {
@@ -47,7 +47,7 @@ export default {
     saveFile: function() {
       if (this.DownloadDom) {
         let blobStr = [this.fileText];
-        var myBlob = new Blob(blobStr, { type: "application/json" });
+        let myBlob = new Blob(blobStr, { type: "application/json" });
         this.DownloadDom.href = window.URL.createObjectURL(myBlob);
         console.log('下载文件已就绪')
       }
