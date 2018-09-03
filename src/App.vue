@@ -18,6 +18,11 @@
       </el-input>
     </div>
     <a id="Download" download="download.json" target="_blank" class="DownloadArea">保存JSON文件</a>
+    <footer class="foot">
+        <p>© 2018 - 3018  Author
+            <a href="https://refined-x.com/" target="_blank">雅X共赏</a> 
+        </p>
+    </footer>
   </div>
 </template>
 
@@ -104,4 +109,18 @@ body {
 .DownloadArea:hover {
   background: #fff;
 }
+
+.foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    padding: 24px;
+    overflow: hidden;
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+}
+.foot a{color:#fff;margin:0 .5em}
 </style>
